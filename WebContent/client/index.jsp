@@ -3,7 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>传智书城</title>
+	<title>XYX百货商城</title>
 	<%-- 导入css --%>
 	<link rel="stylesheet" href="${pageContext.request.contextPath}/client/css/main.css" type="text/css" />
 	<!-- 导入首页轮播图css和js脚本 -->
@@ -29,35 +29,6 @@
     	</div>
 	</div>
 	<!-- 图书商场首页轮播图  end -->	
-	<div id="divcontent">
-		<table width="900px" border="0" cellspacing="0">
-			<tr>
-				<td style="padding:5px 15px 10px 40px">
-					<table width="100%" border="0" cellspacing="0">
-						<tr>
-							<td>
-								<img src="${pageContext.request.contextPath}/client/images/hottitle.gif" width="126" height="29" />
-							</td>
-						</tr>
-					</table>
-					<table width="100%" border="0" cellspacing="0">
-						<tr>
-						<c:forEach items="${pList }" var="pArray">
-							<td style="width:80; text-align:center">
-								<a href="${pageContext.request.contextPath}/findProductById?id=${pArray[0]}">
-									<img src="${pageContext.request.contextPath }${pArray[2]}" width="102" height="130" border="0" /> 
-								</a>
-								<br/> 
-								<a href="${pageContext.request.contextPath}/findProductById?id=${pArray[0]}">${pArray[1]}</a>
-								<%-- <br />作者:${pArray[2] } --%>
-							</td>
-						</c:forEach>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</table>
-	</div>
 	<%@ include file="foot.jsp" %>
 </body>
 </html>

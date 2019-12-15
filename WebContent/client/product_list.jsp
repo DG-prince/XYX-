@@ -3,7 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>bookStore列表</title>
+	<title>XYX百货商城列表</title>
 	<%--导入css --%>
 	<link rel="stylesheet" href="${pageContext.request.contextPath }/client/css/main.css" type="text/css" />
 </head>
@@ -18,8 +18,6 @@
 						<a href="${pageContext.request.contextPath }/index.jsp">首页</a>
 						&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;
 						${bean.category}
-						&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;
-						图书列表
 					</div>
 					<table cellspacing="0" class="listcontent">
 						<tr>

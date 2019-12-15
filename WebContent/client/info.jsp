@@ -2,7 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>电子书城</title>
+	<title>XYX百货商城</title>
 	<link rel="stylesheet" href="${pageContext.request.contextPath }/client/css/main.css" type="text/css" />
 </head>
 <body class="main">
@@ -20,7 +20,6 @@
 					</div>
 					<table cellspacing="0" class="infocontent">
 						<tr>
-							<td><img src="${pageContext.request.contextPath }/client/ad/page_ad.jpg" width="900" height="84" />
 								<table width="100%%" border="0" cellspacing="0">
 									<tr>
 										<td width="30%">

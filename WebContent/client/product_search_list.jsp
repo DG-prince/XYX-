@@ -4,7 +4,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>bookStore列表</title>
+	<title>XYX百货商城列表</title>
 	<%--导入css --%>
 	<link rel="stylesheet" href="client/css/main.css" type="text/css" />
 </head>

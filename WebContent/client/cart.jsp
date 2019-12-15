@@ -4,7 +4,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>电子书城</title>
+<title>XYX百货商城</title>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/client/css/main.css" type="text/css" />
 <script>
     //当商品数量发生变化时触发该方法
@@ -52,13 +52,7 @@
 					<table cellspacing="0" class="infocontent">
 						<tr>
 							<td>
-								<img src="${pageContext.request.contextPath}/client/ad/page_ad.jpg" width="900" height="89" />
 								<table width="100%" border="0" cellspacing="0">
-									<tr>
-										<td>
-											<img src="${pageContext.request.contextPath}/client/images/buy1.gif" width="635" height="38" />
-										</td>
-									</tr>
 									<tr>
 										<td>
 											<table cellspacing="1" class="carttable">

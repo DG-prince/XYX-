@@ -4,7 +4,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-	<title>电子书城</title>
+	<title>XYX百货商城</title>
 	<link rel="stylesheet" href="${pageContext.request.contextPath}/client/css/main.css" type="text/css" />
 	<script type="text/javascript" src="${pageContext.request.contextPath}/client/js/order.js"></script>
 </head>
@@ -27,7 +27,6 @@
 								<td>
 								<table width="100%" border="0" cellspacing="0">
 										<tr>
-											<td><img src="images/buy2.gif" width="635" height="38" />
 												<p>你好，${user.username}！欢迎您来到网上书城结算中心</p>
 											</td>
 										</tr>

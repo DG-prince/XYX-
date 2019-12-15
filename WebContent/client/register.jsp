@@ -3,7 +3,7 @@
 <html>
 <head>
 
-<title>传智书城注册页面</title>
+<title>XYX百货商城注册页面</title>
 <%--导入css和js --%>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/client/css/main.css" type="text/css"/>
 <script type="text/javascript" src="${pageContext.request.contextPath}/client/js/form.js"></script>
